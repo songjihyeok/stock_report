@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"pnpm --filter frontend dev &>/tmp/frontend-dev.log & sleep 5 && curl -s http://localhost:3000 2>/dev/null | head -50\",\"timeout\":15000,\"description\":\"Start frontend dev server and check ini...",
+  "error": "Exit code 1\n(eval):1: parse error near `&'",
+  "timestamp": "2026-03-29T04:55:12.923Z",
+  "retry_count": 1
+}

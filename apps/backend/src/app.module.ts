@@ -1,11 +1,17 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { ScheduleModule } from '@nestjs/schedule';
 import { ThrottlerModule, ThrottlerGuard } from '@nestjs/throttler';
 import { APP_GUARD } from '@nestjs/core';
 import configuration from './config/configuration';
 import { HealthModule } from './health/health.module';
 import { UsersModule } from './users/users.module';
 import { UploadModule } from './upload/upload.module';
+import { NewsModule } from './news/news.module';
+import { AnalysisModule } from './analysis/analysis.module';
+import { ReportsModule } from './reports/reports.module';
+import { SchedulerModule } from './scheduler/scheduler.module';
+import { StocksModule } from './stocks/stocks.module';
 
 @Module({
   imports: [
@@ -15,6 +21,9 @@ import { UploadModule } from './upload/upload.module';
       envFilePath: '.env',
       load: [configuration],
     }),
+
+    // Scheduler for cron jobs
+    ScheduleModule.forRoot(),
 
     // Security: Rate limiting
     ThrottlerModule.forRoot([
@@ -27,6 +36,11 @@ import { UploadModule } from './upload/upload.module';
     HealthModule,
     UsersModule,
     UploadModule,
+    NewsModule,
+    AnalysisModule,
+    ReportsModule,
+    StocksModule,
+    SchedulerModule,
   ],
   providers: [
     // Apply rate limiting globally

@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'VB Start Kit',
-  description: 'Next.js + Supabase + NestJS Starter Kit',
+  title: 'GTT - Global Theme Tracer',
+  description: 'AI-powered global news analysis for strategic investment theme discovery',
 };
 
 export default function RootLayout({

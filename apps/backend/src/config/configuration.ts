@@ -13,4 +13,16 @@ export default () => ({
     ttl: parseInt(process.env.THROTTLE_TTL || '60000', 10),
     limit: parseInt(process.env.THROTTLE_LIMIT || '100', 10),
   },
+  openai: {
+    apiKey: process.env.OPENAI_API_KEY,
+  },
+  newsapi: {
+    key: process.env.NEWSAPI_KEY,
+  },
+  finnhub: {
+    key: process.env.FINNHUB_API_KEY,
+  },
+  alphavantage: {
+    key: process.env.ALPHA_VANTAGE_API_KEY,
+  },
 });

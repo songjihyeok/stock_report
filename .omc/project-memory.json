@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774755427162,
+  "projectRoot": "/Users/songjihyeok/greyzero/stock_report",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": ">=18.0.0",
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pnpm",
+    "runtime": "Node.js 18.0.0"
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": null,
+    "lintCommand": "pnpm lint",
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "dev": "pnpm --parallel -r run dev",
+      "build": "pnpm -r run build",
+      "lint": "pnpm -r run lint",
+      "clean": "pnpm -r run clean"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": true,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "apps": {
+      "path": "apps",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774755427144,
+      "keyFiles": []
+    },
+    "packages": {
+      "path": "packages",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774755427144,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "apps/backend/src/analysis/analysis.service.ts",
+      "accessCount": 31,
+      "lastAccessed": 1774763191725,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/app/dashboard/GTTDashboard.tsx",
+      "accessCount": 30,
+      "lastAccessed": 1774762076619,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/stocks/stocks.service.ts",
+      "accessCount": 20,
+      "lastAccessed": 1774764275994,
+      "type": "file"
+    },
+    {
+      "path": "packages/shared/src/index.ts",
+      "accessCount": 11,
+      "lastAccessed": 1774761892727,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/news/news.service.ts",
+      "accessCount": 5,
+      "lastAccessed": 1774755710372,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/app.module.ts",
+      "accessCount": 3,
+      "lastAccessed": 1774757011733,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/config/configuration.ts",
+      "accessCount": 3,
+      "lastAccessed": 1774761304231,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/.env",
+      "accessCount": 3,
+      "lastAccessed": 1774761311418,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/.env.example",
+      "accessCount": 3,
+      "lastAccessed": 1774761318755,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/reports/reports.controller.ts",
+      "accessCount": 3,
+      "lastAccessed": 1774762007447,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/scheduler/scheduler.service.ts",
+      "accessCount": 2,
+      "lastAccessed": 1774755722177,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/scheduler/scheduler.module.ts",
+      "accessCount": 2,
+      "lastAccessed": 1774755731909,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/analysis/analysis.module.ts",
+      "accessCount": 2,
+      "lastAccessed": 1774757076801,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/app/(auth)/login/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774760389672,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/app/(auth)/signup/page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774760393242,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/components/auth/LoginForm.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774760405354,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/components/auth/SignupForm.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1774760414270,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/news/news.controller.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774755449521,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/news/news.module.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774755449649,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src",
+      "accessCount": 1,
+      "lastAccessed": 1774755456134,
+      "type": "directory"
+    },
+    {
+      "path": "apps/frontend/src/app/dashboard/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774756881000,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/reports/reports.module.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774756890271,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/stocks/stocks.module.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774756996611,
+      "type": "file"
+    },
+    {
+      "path": "apps/backend/src/stocks/stocks.controller.ts",
+      "accessCount": 1,
+      "lastAccessed": 1774756999397,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/src/app/globals.css",
+      "accessCount": 1,
+      "lastAccessed": 1774760062914,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/postcss.config.mjs",
+      "accessCount": 1,
+      "lastAccessed": 1774760072804,
+      "type": "file"
+    },
+    {
+      "path": "apps/frontend/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1774760073249,
+      "type": "directory"
+    },
+    {
+      "path": "apps/frontend/src/app/layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1774760073514,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

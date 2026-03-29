@@ -1,18 +1,59 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
 
 @theme {
   --font-heading: 'Space Grotesk', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 
-  --color-primary: #2563EB;
-  --color-primary-dark: #1D4ED8;
+  --color-primary: #0F172A;
+  --color-primary-dark: #020617;
   --color-secondary: #3B82F6;
-  --color-cta: #F97316;
-  --color-cta-dark: #EA580C;
+  --color-accent: #10B981;
+  --color-accent-dark: #059669;
+  --color-cta: #F59E0B;
+  --color-cta-dark: #D97706;
   --color-background: #F8FAFC;
   --color-surface: #FFFFFF;
   --color-text: #1E293B;
   --color-text-secondary: #64748B;
   --color-border: #E2E8F0;
+
+  /* Theme status colors */
+  --color-emerging: #8B5CF6;
+  --color-growing: #10B981;
+  --color-peak: #F59E0B;
+  --color-declining: #EF4444;
+  --color-stable: #6B7280;
+
+  /* Risk colors */
+  --color-risk-low: #10B981;
+  --color-risk-medium: #F59E0B;
+  --color-risk-high: #F97316;
+  --color-risk-critical: #EF4444;
+
+  /* Category colors */
+  --color-cat-technology: #3B82F6;
+  --color-cat-biotech: #8B5CF6;
+  --color-cat-energy: #10B981;
+  --color-cat-politics: #EF4444;
+  --color-cat-economy: #F59E0B;
+  --color-cat-finance: #06B6D4;
+  --color-cat-society: #EC4899;
+  --color-cat-environment: #22C55E;
+  --color-cat-other: #6B7280;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
 }
